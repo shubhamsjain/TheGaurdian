@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.lenovo.thegaurdian.Activities.AddDependentActivity">
+
+    <ImageView
+        android:id="@+id/img_dpndnt_ic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/black_gradient"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+
+    <EditText
+        android:id="@+id/new_dpndnt_name"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        />
+
+    <EditText
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/new_dpndnt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+    <EditText
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/new_dpndnt_con_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Contact Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_create_dpndnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/ripple_bg"
+        android:text="Create Dependent" />
+
+
+
+</LinearLayout>
